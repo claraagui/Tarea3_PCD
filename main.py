@@ -48,7 +48,7 @@ class UserUpdate(BaseModel):
     user_email: Optional[EmailStr] = None
     age: Optional[int] = None
     recommendations: Optional[List[str]] = None
-    ZIR:Optional[str] = None
+    ZIP:Optional[str] = None
 
 class  UserResponse(BaseModel):
     user_id: int
